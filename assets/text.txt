@@ -1,8 +1,148 @@
-/001 START
--002 continue
-/002 HELLO user
--003 hello
--001 back
-/003 end
--001 start
--002 didn't say hallo
+5/001 You’re an IT Tier 1 intern at a large international company. Your manager hints that if you prove yourself capable of Tier 2 work, you might earn a permanent position. 
+
+-002 Next 
+
+/002 You’re tasked with more complicated Tier 2 tasks to prove you’re worth hiring. Your first challenge arrives sooner than expected. 
+
+-003 Next 
+
+/003 Employees are complaining that the network doesn’t work. A network switch is down. What will you do? 
+
+-004 Reseat the cables 
+
+-005 Reboot the switch 
+
+-006 Reconfigure the switch 
+
+/004 You reseated the cables. There was nothing wrong with the cables. The network is still down. What will you do? 
+
+-005 Reboot the switch 
+
+-006 Reconfigure the switch 
+
+/005 You rebooted the switch. The network is still down. What will you do? 
+
+-004 Reseat the cables 
+
+-006 Reconfigure the switch 
+
+/006 You inspect the switch configuration. Half of the interfaces are administratively down. You enable them, and the network comes back online. 
+
+-007 Next 
+
+/007 The company just bought new workstation computers. They all need Windows licenses. Your decision matters. What will you do? 
+
+-008 Don’t activate anything 
+
+-009 Activate using some random .exe 
+
+-010 Buy licenses 
+
+/008 You receive a warning from the company. 
+
+-009 Activate using some random .exe 
+
+-010 Buy licenses 
+
+/009 The company discovers your “activation strategy.” They fire you on the spot. 
+
+-001 Start over 
+
+/010 You buy the official (and painfully overpriced) licenses from Microsoft. Management approves. 
+
+-011 Next 
+
+/011 A employee from a subsidiary of the company located in Czechia contacts you in Finland to solve a printer problem. What will you do? 
+
+-012 Handle the case yourself in Finland 
+
+-013 Forward it to an employee in Czechia 
+
+/012 You can’t access the printer physically and you can’t help the person because you don’t understand much of the language.  
+
+-013 Forward it to an employee in Czechia 
+
+-014 Handle it yourself 
+
+/013 You forward it to the correct team in Czechia. They handle it, and you take a break. 
+
+-015 Next 
+
+/014 You handled the case yourself by restarting the printer remotely. It seems to be fixed. 
+
+-015 Next 
+
+/015 It is 6 pm at the company. Most of the employees have left. An employee is complaining that they cannot login into their account. What will you do?  
+
+-016 Check their account 
+
+-017 Check the company policy for logins 
+
+-018 Reset everyone’s passwords 
+
+/016 You checked the employee’s account. There is nothing wrong or unusual about it. 
+
+-017 Check the company policy for logins 
+
+-018 Reset everyone’s passwords 
+
+/017 You checked the company policy for logins. Lower tier employees don’t have login access after 5 pm. You tell the employee to go home. 
+
+-021 Next 
+
+/018 You reset everyone’s passwords. Nothing works anymore. 
+
+-019 Restore from a backup 
+
+-020 Do everything by hand 
+
+/019 You successfully restored the login database. 
+
+-021 Next 
+
+/020 You set a generic password for every employee. You’re allowed to continue your internship, but some are already questioning your competence. 
+
+-021 Next 
+
+/021 Users can’t access the company’s internal website anymore. 
+
+-022 Go look at the server physically. 
+
+-023 Tell users to reconnect to the network 
+
+-024 Remote into the server 
+
+/022 You look at the website server. The server seems to be on and running. The server is not responding to any web requests. 
+
+-024 Remote into the server 
+
+/023 The users still can’t access the server. 
+
+-021 Back 
+
+/024 You remote to the server. You restart the web service that is not running for some reason. The boss wants a report of the reason. 
+
+-025 Make up something 
+
+-026 Go look at system logs and figure it out. 
+
+/025 You tell the boss that you don’t know. Your internship ends and you go home.
+
+-001 Start Over
+
+/026 You explain to your boss that after reviewing the system logs, you discovered the web server crashed due to an overload of simultaneous user connections. Impressed by your clear analysis and handling of the issue, the boss decides you’ve proven your worth and offers you a permanent Tier 2 position. 
+The End
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 

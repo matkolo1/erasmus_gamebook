@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     width: 95%;
     max-width: 850px;
     padding: 40px;
@@ -37,23 +37,23 @@ body {
 
     color: #2d3436;
     line-height: 1.6;
-    font-size: 1.5rem;  
+    font-size: 1.5rem;
 }
 
 .choices {
     display: flex;
     flex-direction: column;
     align-items: center;
-      
+
     margin-top: 20px;
     gap: 25px;
 }
 
 .choices button {
     padding: 15px 20px;
-    width: 850px;
-    max-width: 90%;
-    
+    /*width: 90%;*/
+    max-width: 100%;
+
     border-radius: 20px;
     border: 2px solid purple;
     background-color: white;
@@ -71,7 +71,7 @@ body {
 .choices button:hover {
     box-shadow: 0 0 10px blueviolet, inset 0 0 3px blueviolet;
     background-color: #faf5ff;
-    
+
     transform: translateY(-2px);
 }
 

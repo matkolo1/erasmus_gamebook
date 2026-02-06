@@ -21,7 +21,7 @@ body {
 
     width: 95%;
     max-width: 850px;
-    padding: 40px;
+    padding: 5vh;
     box-sizing: border-box;
 
     background: white;
@@ -32,7 +32,8 @@ body {
     border: 2px solid rgba(138, 43, 226, 0.2);
 }
 
-#image {
+#image,
+.image {
     width: 100%;
     display: flex;
     justify-content: center;

@@ -1,6 +1,7 @@
 let textField = document.getElementById("textHere");
 let buttonField = document.getElementById("buttonsHere");
-let textFileContent = getTextFile().split("/").slice(1);
+let imageField = document.getElementById("image");
+let textFileContent = getTextFile().split(/\/\d{3}/).slice(1);
 let currentFrame = (Number)(new URLSearchParams(window.location.search).get("frame"));
 if (currentFrame == 0) currentFrame = 1
 
@@ -36,7 +37,9 @@ class textByFrame {
     }
 
     splitFrameText() {
-        this.frameText = this.origText.split(" ").slice(1).join(" ").split(/-\d{3}/)[0];
+        this.imagePath = this.origText.split("%")[1];
+        this.frameText = this.origText.split(" ").slice(1).join(" ").split(/-\d{3}/)[0].split("%")[0];
+        ;
     }
 
     splitButtons() {
@@ -52,6 +55,7 @@ class textByFrame {
 
     }
     printFrame() {
+        if (this.imagePath) imageField.innerHTML = `<img class="image" src="${this.imagePath}"></img>`;
         textField.innerHTML = this.frameText;
     }
 
